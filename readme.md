@@ -54,7 +54,11 @@ données existantes dans la base de données (sans purge)
 
 
 
+
+
+
 ### Déploiement distant du projet ###
+
 On considère qu'une connexion en ssh est possible vers le serveur distant
 et que git y est préinstaller
 
@@ -115,3 +119,8 @@ données existantes dans la base de données (sans purge)
 
 # Environnement #
 Ne pas oublier de passer l'environnement de dev à prod
+
+# Mis à jour #
+Si des mises à jour sont à apporté et ne concernant pas la base de données ne 
+pas oublier de vider le cache de symfony
+	usr/bin/php8.1-cli bin/console cache:clear
