@@ -1,5 +1,6 @@
 ### Déploiement en local du projet ###
 
+<a href="https://github.com/enLussi/diet-coupart">Lien vers le code du projet</a>
 
 # Cloner le projet #
 cloner le projet
